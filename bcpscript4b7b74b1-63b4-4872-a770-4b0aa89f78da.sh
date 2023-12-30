@@ -1,0 +1,2 @@
+#!/bin/sh
+/opt/mssql-tools/bin/bcp "dbo.TestAr" IN "/tmp/datafile4b7b74b1-63b4-4872-a770-4b0aa89f78da.dat" -Ssqlservtestxl.cwztruwzzvnq.us\-east\-1.rds.amazonaws.com,1433 -dtest -Usnaplogic -PSnap\!0gic -t"[|\!,\!|]" -e"/tmp/errorfile4b7b74b1-63b4-4872-a770-4b0aa89f78da.dat" -r"[|\!/n\!|]" -c -m 10 -q -b 1000 
