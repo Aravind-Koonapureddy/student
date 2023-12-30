@@ -70,7 +70,6 @@ public class StudentService {
         validateMarksRange(marks3, "Marks 3");
 
     }
-
     private void calculateStudentResults(Student student) {
         // Calculate Total, Average, and Result
         int total = student.getMarks1() + student.getMarks2() + student.getMarks3();

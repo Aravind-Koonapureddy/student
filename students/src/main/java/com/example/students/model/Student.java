@@ -122,4 +122,5 @@ public class Student {
     public void setResult(String result) {
         this.result = result;
     }
+
 }

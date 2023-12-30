@@ -37,5 +37,4 @@ public class StudentController {
             @RequestParam Integer marks3) {
         return studentService.updateStudentMarks(id, marks1, marks2, marks3);
     }
-
 }
